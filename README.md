@@ -16,9 +16,8 @@
  ! specific language governing permissions and limitations
  ! under the License.
  !-->
-<a href="http://asterixdb.apache.org"><img src="http://asterixdb.apache.org/img/asterixdb_tm.png" height=100></img></a>
 
-## LSM RUM-tree built in AsterixDB
+## LSM R-tree baseline experiment built in AsterixDB
 This codebase includes the implementation of the baseline experiment of the VLDBJ paper: An Update-intensive LSM-based R-tree. It contains experiment for the LSM R-tree eager and validation strategies.
 The original source code was cloned from https://github.com/apache/asterixdb
 The source code of LSM RU-tree can be found at https://github.com/purduedb/LSM-RUM-tree
@@ -32,6 +31,9 @@ The source code of LSM RU-tree can be found at https://github.com/purduedb/LSM-R
 
 ## Experiment and Evaluation
         java -cp /path/to/asterixdb/hyracks-fullstack/hyracks/hyracks-tests/hyracks-storage-am-lsm-rtree-test/target/test-classes/:/path/to/asterixdb_um/asterixdb/hyracks-fullstack/hyracks/hyracks-tests/hyracks-storage-am-lsm-rtree-test/target/dependency/*  org.apache.hyracks.storage.am.lsm.rtree.UMTest
+
+<a href="http://asterixdb.apache.org"><img src="http://asterixdb.apache.org/img/asterixdb_tm.png" height=100></img></a>
+
 
 ## What is AsterixDB?
 

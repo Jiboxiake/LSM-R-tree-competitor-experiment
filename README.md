@@ -18,6 +18,21 @@
  !-->
 <a href="http://asterixdb.apache.org"><img src="http://asterixdb.apache.org/img/asterixdb_tm.png" height=100></img></a>
 
+## LSM RUM-tree built in AsterixDB
+This codebase includes the implementation of the baseline experiment of the VLDBJ paper: An Update-intensive LSM-based R-tree. It contains experiment for the LSM R-tree eager and validation strategies.
+The original source code was cloned from https://github.com/apache/asterixdb
+The source code of LSM RU-tree can be found at https://github.com/purduedb/LSM-RUM-tree
+
+## Compilation
+        mvn clean package -DskipTests -Drat.numUnapprovedLicenses=200 -e -Dcheckstyle.skip
+
+## Experiment source code locations
+
+        hyracks-fullstack/hyracks/hyracks-tests/hyracks-storage-am-lsm-rtree-test/src/test/java/org/apache/hyracks/UMTest.java
+
+## Experiment and Evaluation
+        java -cp /path/to/asterixdb/hyracks-fullstack/hyracks/hyracks-tests/hyracks-storage-am-lsm-rtree-test/target/test-classes/:/path/to/asterixdb_um/asterixdb/hyracks-fullstack/hyracks/hyracks-tests/hyracks-storage-am-lsm-rtree-test/target/dependency/*  org.apache.hyracks.storage.am.lsm.rtree.UMTest
+
 ## What is AsterixDB?
 
 AsterixDB is a BDMS (Big Data Management System) with a rich feature set that sets it apart from other Big Data platforms.  Its feature set makes it well-suited to modern needs such as web data warehousing and social data storage and analysis. AsterixDB has:

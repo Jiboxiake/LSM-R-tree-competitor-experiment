@@ -1,0 +1,59 @@
+Query:
+SELECT ELEMENT [
+RecordConstructor [
+  (
+    LiteralExpr [STRING] [root]
+    :
+    Variable [ Name=#1 ]
+  )
+]
+]
+FROM [  FunctionCall asterix.dataset@1[
+    LiteralExpr [STRING] [tbl_name]
+  ]
+  AS Variable [ Name=$t ]
+]
+Groupby
+  Variable [ Name=$id ]
+  :=
+  FieldAccessor [
+    Variable [ Name=$t ]
+    Field=id
+  ]
+  GROUP AS Variable [ Name=#2 ]
+  (
+    t:=Variable [ Name=$t ]
+  )
+
+Let Variable [ Name=#1 ]
+  :=
+  FunctionCall asterix.sql-sum@1[
+    (
+      SELECT ELEMENT [
+      OperatorExpr [
+        FieldAccessor [
+          FieldAccessor [
+            Variable [ Name=#3 ]
+            Field=t
+          ]
+          Field=a
+        ]
+        *
+        FieldAccessor [
+          FieldAccessor [
+            Variable [ Name=#3 ]
+            Field=t
+          ]
+          Field=b
+        ]
+      ]
+      ]
+      FROM [        Variable [ Name=#2 ]
+        AS Variable [ Name=#3 ]
+      ]
+    )
+  ]
+Orderby
+  Variable [ Name=#1 ]
+  ASC
+

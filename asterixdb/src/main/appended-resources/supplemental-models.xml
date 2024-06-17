@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementalDataModels>
+  <supplement>
+    <project>
+      <groupId>stax</groupId>
+      <artifactId>stax</artifactId>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+      <properties>
+        <verifiedVersions>1.1.1-dev,1.2.0</verifiedVersions>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <licenses>
+        <license>
+          <name>an MIT-style license</name>
+          <url>http://www.slf4j.org/license.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <licenses>
+        <license>
+          <name>an MIT-style license</name>
+          <url>https://raw.githubusercontent.com/qos-ch/slf4j/v_1.7.25/slf4j-api/LICENSE.txt</url>
+        </license>
+      </licenses>
+      <properties>
+        <license.ignoreMissingEmbeddedNotice>1.7.25</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreMissingEmbeddedLicense>1.7.25</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreLicenseOverride>1.7.25</license.ignoreLicenseOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <licenses>
+        <license>
+          <name>an MIT-style license</name>
+          <url>http://www.slf4j.org/license.html</url>
+        </license>
+      </licenses>
+      <!-- not yet used
+      <properties>
+        <verifiedVersions>1.6.1,1.7.5</verifiedVersions>
+      </properties>
+      -->
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>jline</groupId>
+      <artifactId>jline</artifactId>
+      <name>JLine</name>
+      <url>http://jline.sourceforge.net</url>
+      <organization>
+        <name>JLine</name>
+        <url>http://jline.sourceforge.net</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>a BSD 3-clause license</name>
+          <url>http://jline.sourceforge.net/license.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.jcraft</groupId>
+      <artifactId>jsch</artifactId>
+      <licenses>
+        <license>
+          <name>a BSD 3-clause license</name>
+          <url>http://www.jcraft.com/jsch/LICENSE.txt</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>aopalliance</groupId>
+      <artifactId>aopalliance</artifactId>
+      <name>XML Pull Parsing API</name>
+      <organization>
+        <name>AOP Alliance</name>
+        <url>http://aopalliance.sourceforge.net/</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>Public Domain</name>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <name>Java Servlet API</name>
+      <url>https://jcp.org/aboutJava/communityprocess/mrel/jsr154/index.html</url>
+      <organization>
+        <name>Oracle Corporation</name>
+        <url>http://www.oracle.com/</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0</name>
+          <url>http://www.sun.com/cddl/cddl.html</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>jdom</groupId>
+      <artifactId>jdom</artifactId>
+      <licenses>
+        <license>
+          <name>an ASL v1.1-style license</name>
+          <url>licenses/jdom.txt</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>rome</groupId>
+      <artifactId>rome</artifactId>
+      <name>ROME</name>
+      <organization>
+        <name>The Apache Software Foundation</name>
+        <url>http://www.apache.org/</url>
+      </organization>
+      <licenses>
+        <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+      </licenses>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <properties>
+        <!-- netty is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <license.ignoreMissingEmbeddedLicense>4.1.25.Final,4.1.32.Final</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>4.1.25.Final,4.1.32.Final</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreNoticeOverride>4.1.25.Final,4.1.32.Final</license.ignoreNoticeOverride>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <properties>
+        <!-- guava is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <!-- see https://github.com/google/guava/blob/v18.0/COPYING -->
+        <!-- see https://github.com/google/guava/tree/v28.0/COPYING -->
+        <license.ignoreMissingEmbeddedNotice>18.0,28.0-jre</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreMissingEmbeddedLicense>18.0,28.0-jre</license.ignoreMissingEmbeddedLicense>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.google.guava</groupId>
+      <artifactId>failureaccess</artifactId>
+      <properties>
+        <!-- guava is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <!-- see https://github.com/google/guava/tree/v28.0/ -->
+        <license.ignoreMissingEmbeddedLicense>1.0.1</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>1.0.1</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.google.errorprone</groupId>
+      <artifactId>error_prone_annotations</artifactId>
+      <!-- see https://github.com/google/error-prone/tree/v2.3.2/ -->
+      <properties>
+        <license.ignoreMissingEmbeddedLicense>2.3.2</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.3.2</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.ini4j</groupId>
+      <artifactId>ini4j</artifactId>
+      <properties>
+        <!-- ini4j is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <license.ignoreMissingEmbeddedNotice>0.5.4</license.ignoreMissingEmbeddedNotice>
+        <license.ignoreMissingEmbeddedLicense>0.5.4</license.ignoreMissingEmbeddedLicense>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>args4j</groupId>
+      <artifactId>args4j</artifactId>
+      <properties>
+        <!-- args4j does not provide an embedded NOTICE file -->
+        <license.ignoreMissingEmbeddedNotice>2.33</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <properties>
+        <!-- jackson-annotation does not provide an embedded NOTICE file -->
+        <license.ignoreMissingEmbeddedNotice>2.8.4,2.9.7,2.9.10</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>com.esri.geometry</groupId>
+      <artifactId>esri-geometry-api</artifactId>
+      <properties>
+        <!-- esri is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <license.ignoreMissingEmbeddedLicense>2.0.0</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>2.0.0</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>it.unimi.dsi</groupId>
+      <artifactId>fastutil</artifactId>
+      <properties>
+        <!-- fastutil is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <!-- see https://github.com/vigna/fastutil/blob/8.1.1/LICENSE-2.0 -->
+        <!-- see https://github.com/vigna/fastutil/blob/8.2.2/LICENSE-2.0 -->
+        <license.ignoreMissingEmbeddedLicense>8.1.1,8.2.2</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>8.1.1,8.2.2</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+  <supplement>
+    <project>
+      <groupId>org.xerial.snappy</groupId>
+      <artifactId>snappy-java</artifactId>
+      <properties>
+        <!-- snappy-java is ALv2, and does not contain any embedded LICENSE or NOTICE file -->
+        <!-- license override not needed, ALv2 is specified in its pom.xml -->
+        <!-- see https://github.com/xerial/snappy-java/blob/1.1.7.1/LICENSE -->
+        <license.ignoreMissingEmbeddedLicense>1.1.7.1</license.ignoreMissingEmbeddedLicense>
+        <license.ignoreMissingEmbeddedNotice>1.1.7.1</license.ignoreMissingEmbeddedNotice>
+      </properties>
+    </project>
+  </supplement>
+</supplementalDataModels>
